@@ -11,7 +11,7 @@ export default function () {
       "div",
       { className: "flex flex-col gap-2" },
       createElement("img", {
-        src: "assets/img/image.png",
+        src: "public/image.png",
         alt: "image",
         className:
           "w-full h-[200px] md:h-[300px] lg:h-[350px] object-cover rounded-md hover:scale-105 transition",
@@ -26,7 +26,7 @@ export default function () {
         "Nature is the place for our future"
       ),
       createElement("img", {
-        src: "assets/img/foto2.png",
+        src: "public/foto2.png",
         alt: "foto2",
         className:
           "w-full h-[150px] md:h-[200px] lg:h-[300px] object-cover rounded-xl hover:scale-105 transition",
@@ -41,7 +41,7 @@ export default function () {
       "div",
       { className: "flex flex-col items-center gap-2" },
       createElement("video", {
-        src: "assets/img/shortvid.mp4",
+        src: "public/shortvid.mp4",
         controls: true,
         autoPlay: true,
         loop: true,
@@ -58,7 +58,7 @@ export default function () {
         "Welcome to the Earth"
       ),
       createElement("img", {
-        src: "assets/img/dog.png",
+        src: "public/dog.png",
         alt: "dog",
         className:
           "w-full h-[160px] md:h-[200px] lg:h-[280px] object-cover rounded-md hover:scale-105 transition",
@@ -71,7 +71,7 @@ export default function () {
         className: "text-center text-sm md:text-base lg:text-base",
       }),
       createElement("img", {
-        src: "assets/img/nature.png",
+        src: "public/nature.png",
         alt: "nature",
         className:
           "w-full h-[150px] lg:mt-[-280px] md:h-[200px] lg:h-[250px] object-cover rounded-md hover:scale-105 transition",
